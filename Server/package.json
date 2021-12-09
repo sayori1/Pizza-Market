@@ -1,0 +1,21 @@
+{
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.13"
+    },
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "connect": "^3.7.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^6.0.8",
+        "multer": "^1.4.3",
+        "serve-static": "^1.14.1",
+        "springedge": "^1.0.6"
+    }
+}
